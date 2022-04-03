@@ -1,8 +1,9 @@
 let mainValue = document.getElementById("main-value")
-console.log(mainValue)
 
+//delcares the number
 let displayValue = 20
 
+//displays the number
 mainValue.textContent = displayValue
 
 
