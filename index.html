@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Unit Converter</title>
+</head>
+<body>
+    <!-- MAIN DIV -->
+    <div class="flex flex-col justify-center items-center m-24">
+        <!-- NUMBER DIV -->
+        <div class="m-auto text-white text-center w-2/4 py-10 bg-gradient-to-r from-cyan-500 to-blue-500">
+            <p class="text-md font-normal p-2">Metric/Imperial unit conversion</p>
+            <h1 class="text-6xl font-bold">20</h1>
+        </div>
+        <!-- CALC DIV -->
+        <div class="p-4 text-center bg-white w-2/4">
+            <div class="p-2">
+                <h2 class="text-sm">Length (Meter/Feet)</h2>
+            <p  class="text-xs text-slate-400 p-1">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
+            </div>
+
+            <div class="p-2">
+                <h2 class="text-sm">Volume (Liter/Gallons)</h2>
+            <p  class="text-xs text-slate-400 p-1">0 liters = 0.000 gallons | 0 gallons = 0.000 liters
+
+            </p>
+            </div>
+
+            <div class="p-2">
+                <h2 class="text-sm">Mass (Kilograms/Pounds)</h2>
+            <p class="text-xs text-slate-400 p-1">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos</p>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
